@@ -1,0 +1,35 @@
+.dart_tool/
+.idea/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.env
+.env.*
+!.env.example
+vendor/
+node_modules/
+laravel_backend/vendor/
+laravel_backend/node_modules/
+laravel_backend/.env
+laravel_backend/storage/logs/
+laravel_backend/bootstrap/cache/
+# Flutter generated files
+flutter_app/.dart_tool/
+flutter_app/.idea/
+flutter_app/build/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+
+# Laravel generated files and secrets
+online_book_store/laravel_backend/vendor/
+online_book_store/laravel_backend/node_modules/
+online_book_store/laravel_backend/.env
+online_book_store/laravel_backend/storage/logs/
+online_book_store/laravel_backend/bootstrap/cache/
+
+# Other generated files
+.idea/
+
+# Exclude duplicate and temporary Laravel projects
+online_book_store/laravel_backend_backup/
+online_book_store/laravel_temp/
